@@ -1,5 +1,7 @@
 # Windows 95 Themed Personal Webpage!
 
+![Example](example.PNG)
+
 ## Description
 
 This project was an idea that came to my mind in previous years, and I was inspired by knowing it had been done before. I couldn't create it at the time because I didn't know how to code, but now I've started working on the project. I tried to bring you nostalgia by using the old Windows 95 theme on my personal webpage. With changeable backgrounds, about me and experience features, I'm here with you with a fun, simple and minimalist project.
