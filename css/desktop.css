@@ -1,0 +1,169 @@
+/* desktop */
+.desktop {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 25px;
+  padding-left: 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 100px);
+  grid-gap: 25px;
+}
+
+/* Temel ikon stilleri - tümünde ortak olan özellikler */
+.desktop button[class$="-ico"] {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  height: 80px;
+  background-color: transparent;
+  border: 0;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 60px 60px;
+}
+
+/* Tüm ikon metinleri için ortak stil */
+.desktop button[class$="-ico"] .txt {
+  position: absolute;
+  bottom: -25px;
+  width: 100%;
+  font-family: "win95";
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+
+
+/* Recycle Bin */
+.desktop .recycle-bin-ico {
+  width: 100px;
+  height: 80px;
+  background-color: transparent;
+  border: 0px;
+  background-image: url('../images/icons/recycle_bin_full.avif');
+  background-repeat: no-repeat;
+  background-position: 25px center;
+  background-size: 60px 60px;
+  text-align: center;
+} .desktop .recycle-bin-ico .txt {
+  position: relative;
+  top: 60px;
+  width: 98px;
+  font-family: "win95";
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* About Me (.TXT) */
+.desktop .about-me-ico {
+  background-image: url('../images/icons/text_file.avif');
+}
+
+/* Experience (.TXT) */
+.desktop .experience-ico {
+  background-image: url('../images/icons/text_file.avif');
+}
+
+/* Socials (.TXT) */
+.desktop .socials-ico {
+  width: 100px;
+  height: 80px;
+  background-color: transparent;
+  border: 0px;
+  background-image: url('../images/icons/computer.avif');
+  background-repeat: no-repeat;
+  background-position: 25px center;
+  background-size: 60px 60px;
+  text-align: center;
+} .desktop .socials-ico .txt {
+  position: relative;
+  top: 60px;
+  width: 98px;
+  font-family: "win95";
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+}
+
+/* Guest Book */
+.desktop .guest-book-ico {
+  width: 100px;
+  height: 80px;
+  background-color: transparent;
+  border: 0px;
+  background-image: url('../images/icons/block.avif');
+  background-repeat: no-repeat;
+  background-position: 25px center;
+  background-size: 60px 60px;
+  text-align: center;
+  position: relative;
+} .desktop .guest-book-ico .txt {
+  position: relative;
+  top: 60px;
+  text-align: center;
+  margin: 0 auto;
+
+  width: 98px;
+
+  font-family: "win95";
+  font-size: 18px;
+  color: white;
+}
+
+/* Webrings */
+.desktop .webring-ico {
+  width: 100px;
+  height: 80px;
+  background-color: transparent;
+  border: 0px;
+  background-image: url('../images/icons/globe_map.avif');
+  background-repeat: no-repeat;
+  background-position: 25px center;
+  background-size: 60px 60px;
+  text-align: center;
+  position: relative;
+} 
+.desktop .webring-ico .txt {
+  position: relative;
+  top: 60px;
+  width: 98px;
+  font-family: "win95";
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Music */
+.desktop .music-ico {
+  background-image: url('../images/icons/loudspeaker.avif');
+}
+
+/* Background */
+.desktop .background-ico {
+  width: 100px;
+  height: 70px;
+  background-color: transparent;
+  border: 0px;
+  background-image: url('../images/icons/monitor_application.avif');
+  background-repeat: no-repeat;
+  background-position: 25px center;
+  background-size: 60px 60px;
+  text-align: center;
+} .desktop .background-ico .txt {
+  position: relative;
+  top: 60px;
+  text-align: center;
+  margin: 0 auto;
+
+  width: 98px;
+
+  font-family: "win95";
+  font-size: 18px;
+  color: white;
+}
