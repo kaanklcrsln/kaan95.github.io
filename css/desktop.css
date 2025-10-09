@@ -90,54 +90,7 @@
   color: white;
 }
 
-/* Guest Book */
-.desktop .guest-book-ico {
-  width: 100px;
-  height: 80px;
-  background-color: transparent;
-  border: 0px;
-  background-image: url('../images/icons/block.avif');
-  background-repeat: no-repeat;
-  background-position: 25px center;
-  background-size: 60px 60px;
-  text-align: center;
-  position: relative;
-} .desktop .guest-book-ico .txt {
-  position: relative;
-  top: 60px;
-  text-align: center;
-  margin: 0 auto;
 
-  width: 98px;
-
-  font-family: "win95";
-  font-size: 18px;
-  color: white;
-}
-
-/* Webrings */
-.desktop .webring-ico {
-  width: 100px;
-  height: 80px;
-  background-color: transparent;
-  border: 0px;
-  background-image: url('../images/icons/globe_map.avif');
-  background-repeat: no-repeat;
-  background-position: 25px center;
-  background-size: 60px 60px;
-  text-align: center;
-  position: relative;
-} 
-.desktop .webring-ico .txt {
-  position: relative;
-  top: 60px;
-  width: 98px;
-  font-family: "win95";
-  font-size: 18px;
-  color: white;
-  text-align: center;
-  margin: 0 auto;
-}
 
 /* Music */
 .desktop .music-ico {
