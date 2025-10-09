@@ -45,6 +45,7 @@ Icons used in this project are from: https://oldwindowsicons.tumblr.com/post/657
 - AVIF image format for optimized loading
 - Web fonts (Windows 95 style)
 
+## I used Claud Sonnet 4 (an AI model) to help tune and unify icon and text sizes and the general layout — a quick assist to get everything looking consistent.
 ---
 
 Enjoy the nostalgic journey! 🖥️✨
